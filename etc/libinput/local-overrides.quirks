@@ -8,6 +8,6 @@
 # tablet tool. (Orientation is handled separately by /etc/udev/rules.d/99-epen-calib.rules.)
 # NOTE: the attribute is AttrResolutionHint -- NOT AttrSize, which is invalid and makes
 # libinput drop ALL quirks.
-[Samsung gts7xlwifi S-Pen]
+[Samsung gts7l S-Pen]
 MatchName=sec_e-pen
-AttrResolutionHint=100x100
+AttrResolutionHint=97x97

@@ -1,11 +1,13 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: adaptation-samsung-gts7xlwifi
-Source: https://github.com/mukahraman/adaptation-samsung-gts7xlwifi
+Upstream-Name: adaptation-samsung-gts7l
+Source: https://github.com/xstanislav/adaptation-samsung-gts7l
 
 Files: *
 Copyright: 2023 Peter Cai <peter@typeblog.net>
            2023-2025 Archie Meng <archiemeng@protonmail.com>
            2026 Mustafa Kahraman <mkahraman341@gmail.com>
+           2026 Andrey Ratenkov <ratenkov144@gmail.com>
+           2026 Stanislav Poleshuk <thestaspoleshuk@gmail.com>
 License: BSD-3-clause
 
 Files: debian/*

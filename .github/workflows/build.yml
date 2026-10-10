@@ -33,7 +33,7 @@ jobs:
         quay.io/droidian/build-essential:next-amd64 /bin/bash -c '''
         apt-get install linux-packaging-snippets
         cd /build/sources
-        dpkg-buildpackage -us -uc -b        
+        dpkg-buildpackage -us -uc -b
         '''
     - uses: actions/upload-artifact@v4
       with:
@@ -55,8 +55,8 @@ jobs:
         apt-ftparchive packages . > Packages
         gzip -9c Packages > Packages.gz
         cat > apt-ftparchive.conf <<'EOF'
-        APT::FTPArchive::Release::Origin "mukahraman/adaptation-samsung-gts7xlwifi";
-        APT::FTPArchive::Release::Label  "mukahraman/adaptation-samsung-gts7xlwifi";
+        APT::FTPArchive::Release::Origin "${{ github.event.repository.name }}";
+        APT::FTPArchive::Release::Label  "${{ github.event.repository.name }}";
         APT::FTPArchive::Release::Suite  "trixie";
         APT::FTPArchive::Release::Codename "trixie";
         APT::FTPArchive::Release::Architectures "arm64 all";

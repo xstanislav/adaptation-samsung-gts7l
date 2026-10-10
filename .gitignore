@@ -7,8 +7,8 @@ debian/*-stamp
 debian/*.debhelper.log
 debian/*.substvars
 debian/tmp/
-debian/adaptation-samsung-gts7xlwifi/
-debian/adaptation-samsung-gts7xlwifi-configs/
+debian/adaptation-samsung-gts7l/
+debian/adaptation-samsung-gts7l-configs/
 
 # Build outputs
 *.deb

@@ -1,28 +1,28 @@
-Source: adaptation-samsung-gts7xlwifi
-Maintainer: Mustafa Kahraman <mkahraman341@gmail.com>
+Source: adaptation-samsung-gts7l
+Maintainer: Stanislav Poleshuk <thestaspoleshuk@gmail.com>
 Section: metapackages
 Priority: optional
 Build-Depends: debhelper (>= 10)
 Standards-Version: 4.5.0.3
-Vcs-Browser: https://github.com/mukahraman/adaptation-samsung-gts7xlwifi
-Vcs-Git: https://github.com/mukahraman/adaptation-samsung-gts7xlwifi.git
+Vcs-Browser: https://github.com/mukahraman/adaptation-samsung-gts7l
+Vcs-Git: https://github.com/mukahraman/adaptation-samsung-gts7l.git
 
-Package: adaptation-samsung-gts7xlwifi
+Package: adaptation-samsung-gts7l
 Architecture: all
 Depends: ${misc:Depends},
-         linux-bootimage-samsung-gts7xlwifi,
+         linux-bootimage-samsung-gts7l,
          adaptation-hybris-api30-phone,
-         adaptation-samsung-gts7xlwifi-configs,
-Description: adaptation-samsung-gts7xlwifi - meta
- Samsung Galaxy Tab S7+ Wi-Fi (SM-T970, codename gts7xlwifi) api30
+         adaptation-samsung-gts7l-configs,
+Description: adaptation-samsung-gts7l - meta
+ Samsung Galaxy Tab S7 LTE (SM-T875, codename gts7l) api30
  adaptation metapackage. Depends on the kernel bootimage, the Halium
  hybris API-30 phone runtime, and this device's adaptation configs.
 
-Package: adaptation-samsung-gts7xlwifi-configs
+Package: adaptation-samsung-gts7l-configs
 Architecture: all
 Depends: ${misc:Depends},
-Description: Samsung Galaxy Tab S7+ Wi-Fi (gts7xlwifi)'s specific adaptation configs
+Description: Samsung Galaxy Tab S7 LTE (gts7l)'s specific adaptation configs
  Device-specific configuration files (udev rules, phosh compositor settings,
- device flag files, hwcomposer/audio glue) for the Samsung Galaxy Tab S7+
- Wi-Fi (gts7xlwifi) running Droidian on top of a Halium-12 / Android-11
+ device flag files, hwcomposer/audio glue) for the Samsung Galaxy Tab S7 LTE
+ (gts7l) running Droidian on top of a Halium-12 / Android-11
  vendor partition.

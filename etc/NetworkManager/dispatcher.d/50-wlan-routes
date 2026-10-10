@@ -9,6 +9,6 @@ case "$IFACE" in
     *) exit 0 ;;
 esac
 case "$ACTION" in
-    up|dhcp4-change) /usr/lib/adaptation-samsung-gts7xlwifi/wlan-routes-fix ;;
+    up|dhcp4-change) /usr/lib/adaptation-samsung-gts7l/wlan-routes-fix ;;
 esac
 exit 0
