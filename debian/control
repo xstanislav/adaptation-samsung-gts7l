@@ -20,6 +20,7 @@ Description: adaptation-samsung-gts7l - meta
 
 Package: adaptation-samsung-gts7l-configs
 Architecture: all
+Replaces: bluez
 Depends: ${misc:Depends},
 Description: Samsung Galaxy Tab S7 LTE (gts7l)'s specific adaptation configs
  Device-specific configuration files (udev rules, phosh compositor settings,
